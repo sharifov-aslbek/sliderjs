@@ -61,3 +61,21 @@ body {
     outline: 0;
     cursor: pointer;
 }
+.slider .btns .dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.slider .btns .dots li {
+    list-style: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider .btns .dots li.active {
+    background: black;
+}
